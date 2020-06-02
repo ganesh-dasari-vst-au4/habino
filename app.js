@@ -9,7 +9,7 @@ app.use(express.urlencoded());
 app.use(cors());
 
 // import controller
-const controller = require("./controllers/customer");
+const controller = require("./Controllers/customer");
 
 //Routes
 app.post("/create-customer", controller.add);
